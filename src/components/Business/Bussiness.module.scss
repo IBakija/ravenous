@@ -1,0 +1,59 @@
+.businessCard {
+    max-width: 300px;
+    width: 100%;
+    max-height: 500px;
+    height: 100%;
+}
+
+.businessImage {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    background-color: sandybrown;
+    display: inline-block;
+}
+
+.businessCardBottom {
+    padding: 30px;
+}
+
+.businessTitle {
+    font-size: large;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.businessInfo {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.businessAddress {
+    p {
+        margin-top: 0;
+        margin-bottom: 5px;
+        font-size: small;
+        color: gray;
+    }
+}
+
+.bussinessCommunity {
+    text-align: right;
+
+    p {
+        margin-top: 0;
+        margin-bottom: 5px;
+        font-size: small;
+        color: gray;
+
+        &.highlight {
+            color: darkgoldenrod;
+            font-weight: 600;
+        }
+
+        &.uppercase {
+            text-transform: uppercase;
+        }
+    }
+}
